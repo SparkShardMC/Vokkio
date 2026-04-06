@@ -18,3 +18,6 @@ use_mmap = true
 [assets]
 model_extension = "glb"
 root_path = "../../assets/models/"
+texture_resolution_cap = 2048
+use_pbr = true
+anisotropy_level = 16
