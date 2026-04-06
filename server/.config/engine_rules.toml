@@ -1,0 +1,20 @@
+[identity]
+base_id_length = 10
+symbol_padding = 4
+alphabet = "abcdefghijklmnopqrstuvwxyz0123456789"
+symbols = "!@#$%^&*()_+"
+hash_type = "blake3"
+
+[simulation]
+max_entities = 100000    
+tick_rate_hz = 128       
+use_simd = true          
+
+[storage]
+format = "bin"           
+atomic_swaps = true      
+use_mmap = true          
+
+[assets]
+model_extension = "glb"
+root_path = "../../assets/models/"
