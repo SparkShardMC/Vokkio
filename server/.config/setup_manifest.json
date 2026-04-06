@@ -1,0 +1,20 @@
+{
+  "engine_name": "Vokkio",
+  "version": "vBETA",
+  "structure": {
+    "root_folders": [
+      "assets/models",
+      "players",
+      "animations"
+    ],
+    "internal_folders": [
+      "server/src",
+      "server/build"
+    ]
+  },
+  "dependencies": {
+    "rust": "stable",
+    "dotnet": "9.0",
+    "git": "required"
+  }
+}
